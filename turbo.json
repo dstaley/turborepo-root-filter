@@ -1,0 +1,13 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["src/**"]
+    },
+    "//#test:integration": {
+      "dependsOn": ["@repo/package-a#build"],
+      "inputs": ["integration/**"]
+    }
+  }
+}

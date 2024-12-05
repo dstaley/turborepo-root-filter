@@ -1,0 +1,9 @@
+{
+  "name": "@repo/package-a",
+  "dependencies": {
+    "@repo/package-b": "workspace:*"
+  },
+  "scripts": {
+    "build": "node src/build.js"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@repo/package-b",
+  "scripts": {
+    "build": "node src/build.js"
+  }
+}
