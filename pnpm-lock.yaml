@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       turbo:
-        specifier: ^2.3.3
-        version: 2.3.3
+        specifier: 2.3.4-canary.2
+        version: 2.3.4-canary.2
       turbo-ignore:
-        specifier: ^2.3.3
-        version: 2.3.3
+        specifier: 2.3.4-canary.2
+        version: 2.3.4-canary.2
 
   packages/package-a:
     dependencies:
@@ -30,75 +30,75 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  turbo-darwin-64@2.3.3:
-    resolution: {integrity: sha512-bxX82xe6du/3rPmm4aCC5RdEilIN99VUld4HkFQuw+mvFg6darNBuQxyWSHZTtc25XgYjQrjsV05888w1grpaA==}
+  turbo-darwin-64@2.3.4-canary.2:
+    resolution: {integrity: sha512-lYKCN/FBPn8pFvaEuOQ7ZCGRdF+umNbW2JG/oK2znwblW/CzTDqBe1oM8wErCSoTPpk/51envi1FpQ/3grykXQ==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.3.3:
-    resolution: {integrity: sha512-DYbQwa3NsAuWkCUYVzfOUBbSUBVQzH5HWUFy2Kgi3fGjIWVZOFk86ss+xsWu//rlEAfYwEmopigsPYSmW4X15A==}
+  turbo-darwin-arm64@2.3.4-canary.2:
+    resolution: {integrity: sha512-Up8+JD19AKnlhKRowQSoip3hKASP3So3Lcsn27jSVsJe50gFw7KUS3zDLRZU2i0n+IFUHzRobUaL02/3hkzTfg==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-ignore@2.3.3:
-    resolution: {integrity: sha512-ypwpW0gauPjoUgrMkq/zQggxxJR7hmdge9eRWeBUP5+41mcSPNZDUgHEqSholoXlf20AIunLd/FwDzeBJW7Zaw==}
+  turbo-ignore@2.3.4-canary.2:
+    resolution: {integrity: sha512-Zg9LsyTmH9vvOICmFhbLhuuZWohMjHFEhyl1mXXTT8bmpP9vtT/ppF0T3qSaa0LYz3OH+Aue70BjrL//ujNb9w==}
     hasBin: true
 
-  turbo-linux-64@2.3.3:
-    resolution: {integrity: sha512-eHj9OIB0dFaP6BxB88jSuaCLsOQSYWBgmhy2ErCu6D2GG6xW3b6e2UWHl/1Ho9FsTg4uVgo4DB9wGsKa5erjUA==}
+  turbo-linux-64@2.3.4-canary.2:
+    resolution: {integrity: sha512-03k4ZFlMEERuPwaSEqEEebA20fE+RBtgYViDlqoFmb5jRT53sJWD0EycuWU5B4616cyC84NwoIAC2Y8P6UVf0A==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.3.3:
-    resolution: {integrity: sha512-NmDE/NjZoDj1UWBhMtOPmqFLEBKhzGS61KObfrDEbXvU3lekwHeoPvAMfcovzswzch+kN2DrtbNIlz+/rp8OCg==}
+  turbo-linux-arm64@2.3.4-canary.2:
+    resolution: {integrity: sha512-814+Qy/kXiZPXPeTQ0uIRDPpXzPJ8d/+nmyswIxgXYHPoBoCnTANxcxcdaIeCztM7/Gb1GlGiuJdF0szPa9zVQ==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.3.3:
-    resolution: {integrity: sha512-O2+BS4QqjK3dOERscXqv7N2GXNcqHr9hXumkMxDj/oGx9oCatIwnnwx34UmzodloSnJpgSqjl8iRWiY65SmYoQ==}
+  turbo-windows-64@2.3.4-canary.2:
+    resolution: {integrity: sha512-wzDm/Cxa+t1IkStJ2N2WOtKIX90pvZhNuLNZ6uyDi8z6FTrggYGoJ1RtAOR7vyo6zfT0UpACPTn78wTZ5PnIHA==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.3.3:
-    resolution: {integrity: sha512-dW4ZK1r6XLPNYLIKjC4o87HxYidtRRcBeo/hZ9Wng2XM/MqqYkAyzJXJGgRMsc0MMEN9z4+ZIfnSNBrA0b08ag==}
+  turbo-windows-arm64@2.3.4-canary.2:
+    resolution: {integrity: sha512-zxrIKID8TRE71MTsPQacWRwMM52w9gGonSEvlZJRsVRtVnk8Ob5T77uV/Tbsxxh27Cbc9fYri6abyviHRfrIvw==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.3.3:
-    resolution: {integrity: sha512-DUHWQAcC8BTiUZDRzAYGvpSpGLiaOQPfYXlCieQbwUvmml/LRGIe3raKdrOPOoiX0DYlzxs2nH6BoWJoZrj8hA==}
+  turbo@2.3.4-canary.2:
+    resolution: {integrity: sha512-3A+2t3YI1RimFpqUgeWngSiki1Dz7JxozHFpBVI2GRQ2Jzl/RzcVAAGUf2aGWBIUk900ZsiDAlNk8Y+3BNUz0A==}
     hasBin: true
 
 snapshots:
 
   json5@2.2.3: {}
 
-  turbo-darwin-64@2.3.3:
+  turbo-darwin-64@2.3.4-canary.2:
     optional: true
 
-  turbo-darwin-arm64@2.3.3:
+  turbo-darwin-arm64@2.3.4-canary.2:
     optional: true
 
-  turbo-ignore@2.3.3:
+  turbo-ignore@2.3.4-canary.2:
     dependencies:
       json5: 2.2.3
 
-  turbo-linux-64@2.3.3:
+  turbo-linux-64@2.3.4-canary.2:
     optional: true
 
-  turbo-linux-arm64@2.3.3:
+  turbo-linux-arm64@2.3.4-canary.2:
     optional: true
 
-  turbo-windows-64@2.3.3:
+  turbo-windows-64@2.3.4-canary.2:
     optional: true
 
-  turbo-windows-arm64@2.3.3:
+  turbo-windows-arm64@2.3.4-canary.2:
     optional: true
 
-  turbo@2.3.3:
+  turbo@2.3.4-canary.2:
     optionalDependencies:
-      turbo-darwin-64: 2.3.3
-      turbo-darwin-arm64: 2.3.3
-      turbo-linux-64: 2.3.3
-      turbo-linux-arm64: 2.3.3
-      turbo-windows-64: 2.3.3
-      turbo-windows-arm64: 2.3.3
+      turbo-darwin-64: 2.3.4-canary.2
+      turbo-darwin-arm64: 2.3.4-canary.2
+      turbo-linux-64: 2.3.4-canary.2
+      turbo-linux-arm64: 2.3.4-canary.2
+      turbo-windows-64: 2.3.4-canary.2
+      turbo-windows-arm64: 2.3.4-canary.2
